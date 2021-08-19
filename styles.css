@@ -166,7 +166,7 @@ li {
 }
 
 .projects a {
-  border: solid 1pxrgb (141, 99, 184);
+  border: solid 0.2px rgb(141, 99, 184);
   width: 35%;
   margin: 10px 20px;
   padding: 5px;
@@ -176,6 +176,9 @@ li {
   height: auto;
 }
 @media (max-width: 640px) {
+  body{
+    background-color: white;
+  }
   .body-section {
     width: 80vw;
   }
@@ -198,6 +201,9 @@ li {
     display: flex;
     flex-direction: column-reverse;
   }
+  .bottom-right h2 {
+    margin:50px 0;
+  }
   .bottom-left {
     width: 100%;
   }
@@ -207,6 +213,12 @@ li {
   }
   .set {
     width: 95%;
+  }
+  .library {
+    width: 30%;
+  }
+  .projects a {
+    width: 100%;
   }
 }
 
